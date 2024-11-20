@@ -12,7 +12,6 @@ public class NestedFramesTest extends BaseTests {
     public void NestedFrame()
     {
         var page = homePage.clickFrames();
-
         var NestedPage = page.ClickNestedFrames();
         String LeftName = NestedPage.getLeftFrameText("left","up");
         String BottomName = NestedPage.getLeftFrameText("bottom","down");
